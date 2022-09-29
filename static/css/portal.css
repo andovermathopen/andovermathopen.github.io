@@ -1,0 +1,28 @@
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.horizontal .content {
+  width: 33%;
+}
+
+.no-underline {
+  border-bottom: none;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+input[type="checkbox"] {
+  appearance: auto;
+  opacity: 100;
+  float: none;
+  margin: auto;
+}
+
+table tr:nth-child(6n) {
+  height: 6em;
+}

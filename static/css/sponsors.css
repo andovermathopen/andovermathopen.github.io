@@ -1,0 +1,40 @@
+.imagebox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: center;
+}
+
+.slide {
+    width:  18%;
+    margin: auto 2%;
+    height: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.slide a {
+    border: none;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 8vh;
+}
+
+.slide img:hover {
+    filter: grayscale(0);
+}
+
+.grayscale {
+    filter: grayscale(1)
+}
+
+h4 {
+    margin: 2em 0;
+}
+
+hr {
+    margin: 0 0 2em;
+}

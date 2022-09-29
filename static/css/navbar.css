@@ -1,0 +1,24 @@
+#header {
+    background-color: #0047ab;
+}
+
+#header a {
+    color: #ffffff !important;
+}
+
+#header nav>ul>li>a.menuToggle:before {
+  background: url("../images/favicon5.png");
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 3.75em;
+  vertical-align: top;
+}
+
+#header nav>ul>li>a.menuToggle:before {
+    height: 4.5em;
+    width: 3.75em;
+    transform: translateY(-2px);
+}
