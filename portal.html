@@ -27,6 +27,7 @@ MOAA - Portal
     <link rel="stylesheet" href="/static/css/main.css" />
     <link rel="stylesheet" href="/static/css/navbar.css" />
     <link rel="stylesheet" href="/static/css/portal.css" />
+  
 
     
     
@@ -53,7 +54,23 @@ MOAA - Portal
       gtag("js", new Date());
       gtag("config", "UA-120912424-3");
 
-      var index = "/";
+      // var index = "/";
+
+      // var countDownDate = new Date("Oct 8, 2022 11:45:00").getTime();
+      // var x = setInterval(function() {
+      //   var now = new Date().getTime();
+      //   var distance = countDownDate - now;
+      //   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      //   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      //   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      //   document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
+
+      //   if (distance < 0) {
+      //     clearInterval(x);
+      //     document.getElementById("demo").innerHTML = "EXPIRED";
+      //   }
+      // }, 1000);
     </script>
 
     <!-- JavaScript common to all MOAA pages. -->
@@ -133,10 +150,12 @@ MOAA - Portal
       <section class="wrapper style1 special" id="welcome">
       <div class="inner">
         <header class="major">
+          
           <h2>MOAA 2022</h2>
           <p class="align-center">
             Here, you will find the problem and submission links for MOAA 2022.
           </p>
+          <p id="demo" class="align-center"></p>
         </header>
       </div>
     </section>
