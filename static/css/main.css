@@ -2168,6 +2168,11 @@ body.is-mobile.landing #contact-us {
   background-position: 50% 15%;
 }
 
+.xu-andy-2023 {
+  background-image: url(../images/team/xu-andy-2023.jpeg);
+  background-position: 50% 15%;
+}
+
 /* The images' ability to hover! Inspired by Victoria Zhang '20.' */
 .profile-pic {
   display: inline-block;
