@@ -2783,3 +2783,28 @@ details div {
 #register-button-2022 {
   font-size: 16px;
 }
+
+.black {
+  color: black !important;
+}
+
+.pricing-banner {
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  display: flex;;
+
+}
+
+#pricing-banner{
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+.pricing-banner-1 {
+  align-items: center;
+  background-color: #ececec;
+  height: 50vh;
+}
