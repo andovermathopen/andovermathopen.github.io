@@ -206,10 +206,10 @@ MOAA - In-Person Registration
                       
                       </div>
                       <label for="teamNameQuestion" class="black">Confirm your team name by retyping it below</label>
-                      <input type="text" name="textNameQuestion">
+                      <input type="text" name="textNameQuestion" required>
                       <label for="question1" class="black">Confirm your team member count below before proceding to payment </label>
                       
-                      <select name="question1" id="question1">
+                      <select name="question1" id="question1" required>
                         <option value="1">1 Team Member</option>
                         <option value="2">2 Team Members</option>
                         <option value="3">3 Team Members</option>
@@ -263,17 +263,15 @@ MOAA - In-Person Registration
                       <p class="black inline">If you choose to pay on the day of the competition, your subtotal is</p>
                       <p class="red inline" id="latepay"></p><br><br>
 
+                      <p class="black">Please select your payment option below. If you choose to pay in advance, please use the PayPal or Zelle buttons to complete your payment before pressing "Finished." If you choose to pay in-person, please ignore the PayPal and Zelle buttons and press "Finished."</p>
                       <div class="paying" id="paying">
-                        <select name="payment" id="payment">
+                        <select name="payment" id="payment" required>
                           <option value="" disabled selected hidden>Choose a payment option</option>
                           <option value="advanced">I would like to pay now</option>
                           <option value="late">I would like to pay on the day of the competition</option>
                         </select>
                         <br>
-                        <button type="button" class="confirm-btn" id="confirm">Confirm</button>
-                        <br>
-                        <br>
-                        <br>
+
                       </div>
                       <div class="paypal">
                         <a href="https://paypal.me/junguileeshim" target="_blank">
