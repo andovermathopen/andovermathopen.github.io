@@ -55,6 +55,7 @@ function check() {
 	}
 
 $ (document).ready(function(){
+  $("payment").hide()
     $("#confirm").click(function(){
       var payment=$("#payment");
       if(payment.val () === "advanced") {
