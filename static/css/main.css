@@ -2789,22 +2789,22 @@ details div {
 }
 
 .pricing-banner {
-  align-items: center;
-  background-color: white;
-  justify-content: center;
-  display: flex;;
+  align-items: center !important;
+  background-color: white !important;
+  justify-content: center !important;
+  display: flex !important;
 
 }
 
 #pricing-banner{
-  width: 50%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  width: 50% !important;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
 
 }
 
 .pricing-banner-1 {
-  align-items: center;
-  background-color: #ececec;
-  height: 51vh;
+  align-items: center !important;
+  background-color: #ececec !important;
+  height: 51vh !important;
 }
