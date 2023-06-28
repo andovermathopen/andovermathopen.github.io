@@ -2259,8 +2259,8 @@ body.is-mobile.landing #contact-us {
 /* Formatting for Google Maps! */
 iframe {
   text-align: center;
-  width: 600px;
-  height: 450px;
+  width: 100vw;
+  height: 100vh;
   border: 0px;
 }
 
@@ -2897,11 +2897,11 @@ button.previous-btn {
       cursor: pointer;
       background-color: #0047ab;
       color: white;
-      font-size: 18px;
+      font-size: 15px;
       border-radius: 5px;
 }
 
-button.confirm-btn{
+input[type="submit"]{
   border: none !important;
   outline: none !important;
   background-color: #0047ab;
@@ -2909,5 +2909,4 @@ button.confirm-btn{
   font-size: 18px;
   cursor: pointer;
   border-radius: 8px;
-  /* text-align: right; */
 }
