@@ -2193,6 +2193,11 @@ body.is-mobile.landing #contact-us {
   background-position: 50% 15%;
 }
 
+.jin-jenny-2023 {
+  background-image: url(../images/team/jin-jenny-2023.png);
+  background-position: 50% 15%;
+}
+
 /* The images' ability to hover! Inspired by Victoria Zhang '20.' */
 .profile-pic {
   display: inline-block;
