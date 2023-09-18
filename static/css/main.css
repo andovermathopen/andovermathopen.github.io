@@ -2815,6 +2815,7 @@ details div {
 
 .red {
   color: red !important;
+  background-color: black !important;
 }
 
 .pricing-banner {
