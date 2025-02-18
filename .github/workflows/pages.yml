@@ -21,22 +21,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Install dependencies
-        run: npm install  # (Only if your project requires it)
-
-      - name: Build site
-        run: npm run build  # (Use the correct build command)
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'  # Ensure this is the correct directory
+          path: './'  # Ensure this points to the folder with your HTML files
 
       - name: Deploy to GitHub Pages
         id: deployment
