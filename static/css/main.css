@@ -2198,6 +2198,11 @@ body.is-mobile.landing #contact-us {
   background-position: 50% 15%;
 }
 
+.eddy2025 {
+  background-image: url(../images/team/eddy2025.jpg);
+  background-position: 50% 15%;
+}
+
 /* The images' ability to hover! Inspired by Victoria Zhang '20.' */
 .profile-pic {
   display: inline-block;
