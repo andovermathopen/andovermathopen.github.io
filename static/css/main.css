@@ -2275,7 +2275,7 @@ body.is-mobile.landing #contact-us {
 
 .bill2026 {
   background-image: url(../images/team/bill2026.png);
-  background-position: 50% 10%;
+  background-position: 50% 50%;
 }
 
 .yoll2026 {
@@ -2286,7 +2286,7 @@ body.is-mobile.landing #contact-us {
 .oliver2026 {
   background-image: url(../images/team/oliver2026.png);
   background-position: 50% 15%;
-  background-size: 140%;
+  background-size: 140% auto;
 }
 
 
