@@ -2248,6 +2248,47 @@ body.is-mobile.landing #contact-us {
   background-position: 50% 15%;
 }
 
+.alice2026 {
+  background-image: url(../images/team/alice2026.jpeg);
+  background-position: 50% 15%;
+}
+
+.carolyn2026 {
+  background-image: url(../images/team/carolyn2026.png);
+  background-position: 50% 15%;
+}
+
+.ishan2026 {
+  background-image: url(../images/team/ishan2026.jpeg);
+  background-position: 50% 15%;
+}
+
+.kaylee2026 {
+  background-image: url(../images/team/kaylee2026.jpeg);
+  background-position: 50% 15%;
+}
+
+.paige2026 {
+  background-image: url(../images/team/paige2026.png);
+  background-position: 50% 15%;
+}
+
+.bill2026 {
+  background-image: url(../images/team/bill2026.png);
+  background-position: 50% 15%;
+}
+
+.yoll2026 {
+  background-image: url(../images/team/yoll2026.jpeg);
+  background-position: 50% 15%;
+}
+
+.bill2026 {
+  background-image: url(../images/team/bill2026.png);
+  background-position: 50% 15%;
+}
+
+
 /* The images' ability to hover! Inspired by Victoria Zhang '20.' */
 .profile-pic {
   display: inline-block;
