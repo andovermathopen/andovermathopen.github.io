@@ -18,9 +18,16 @@
     border: none;
 }
 
-.slide img {
+/* .slide img {
     max-width: 100%;
     max-height: 8vh;
+} */
+
+.slide img {
+    max-width: 100%;
+    height: 80px;   
+    width: auto;
+    object-fit: contain;
 }
 
 .slide img:hover {
